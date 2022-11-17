@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/2cb51aab6c.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <title>Project-2 63070158</title>
+</head>
+
+<body oncontextmenu="return false">
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+    <nav id="navbar">
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a class="Logotxt" href="#about-bootstrap"><img src="img/bootstrap-logo.svg" alt=""></a>
+                <label class="visal" for="Bootstrap">Bootstrap by visalcoolcool ( ʕ •ᴥ•ʔゝ☆ )</label>
+            </li>
+            <li class="nav-item">
+                <a href="#about-bootstrap">Bootstrap คืออะไร</a>
+            </li>
+            <li class="nav-item">
+                <a href="#history">รายละเอียด&ประวัติ</a>
+            </li>
+            <li class="nav-item">
+                <a href="#why">จุดเด่น</a>
+            </li>
+            <li class="nav-item">
+                <a href="#using">การติดตั้ง</a>
+            </li>
+            <li class="nav-item">
+                <a href="#used">การใช้งาน</a>
+            </li>
+            <li class="nav-item">
+                <a href="#website-ex"">ตัวอย่างการใช้งาน</a>
+            </li>
+            <li class=" nav-item">
+                    <a href="#footer"">ผู้จัดทํา / ที่มา</a>
+            </li>
+        </ul>
+    </nav>
+    <section id="about-bootstrap" class="about-bootstrap">
+                        <div class="big-logo">
+                            <img src="img/bootstrap-logo.svg" alt="Bootstrap logo">
+                        </div>
+                        <div class="what">
+                            <div class="what-wrap">
+                                <h1 style="text-align: center;">ทําความรู้จักกับ Bootstrap</h1>
+                                <br><br>
+                                <h2>Bootstrap คืออะไร ?</h2>
+                                <br><br>
+                                <p>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bootstrap คือ Frontend Framework
+                                    ยี่ห้อหนึ่งที่ช่วยให้เราสามารถสร้างหน้าเว็บให้ตรงตามแบบที่เราต้องการได้ง่ายขึ้น
+                                    เพราะ Bootstrap
+                                    มีทั้งระบบ grid ที่ช่วยเรื่องการวาง layout ที่รองรับในแบบ responsive และมี component
+                                    สำเร็จรูปให้ใช้
+                                    ถ้าเราอยากได้ของที่ต้องใช้บ่อยๆ แต่ไม่อยากคราฟเองเช่น table card หรือปุ่มสวยๆ
+                                    bootstrap
+                                    ก็สามารถช่วยให้เราสร้างขึ้นมาได้ง่ายๆ ตามแบบที่ bootstrap ได้วางไว้อีกด้วย
+                                </p>
+                                <br>
+                                <button><a href="https://getbootstrap.com/">อ่านเพิ่มเติม</a></button>
+                            </div>
+                        </div>
+                        </section>
+                        <section id="history" class="history">
+                            <div class="left">
+                                <br><br><br>
+                                <h1>รายละเอียด Bootstrap</h1>
+                                <br><br>
+                                <h2>รู้จักกับทีมผู้พัฒนา</h2>
+                                <br><br><br>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bootstrap คือชุดคำสั่งที่ประกอบด้วยภาษา CSS, HTML และ
+                                    Javascript
+                                    เป็นชุดคำสั่งที่ถูกพัฒนาขึ้นมาเพื่อกำหนดกรอบหรือ
+                                    รูปแบบการพัฒนาเว็บไซต์ในส่วนของการปฏิสัมพันธ์กับผู้ใช้งานเว็บไซต์ ( User Interface )
+                                    เราจึงสามารถเรียก
+                                    Bootstrap
+                                    ว่าเป็น Front-end framework คือใช้สำหรับ พัฒนาเว็บไซต์ส่วนการแสดงผล
+                                    ซึ่งแตกต่างจากภาษาประเภท Server Side
+                                    Script
+                                    อย่าง PHP, Python หรือภาษาอื่น ๆ</p>
+                                <br>
+                                <p>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bootstrap ถูกพัฒนาขึ้นโดย Mark Otto และ Jacob Thornton
+                                    ทีมพัฒนาของ Twitter
+                                    Inc. ก่อนหน้านี้ใช้ชื่อว่า
+                                    Twitter Blueprint
+                                    และเปิดให้นักพัฒนาสามารถนำไปใช้งานพัฒนาเว็บไซต์ได้แบบฟรี ( Open Source ) ในชื่อว่า
+                                    Bootstrap Framework
+                                </p>
+                            </div>
+                            <div class="right">
+                                <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                                <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML"><i
+                                        class="fab fa-html5"></i></a>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><i
+                                        class="fab fa-css3-alt"></i></a>
+                                <a href="https://www.javascript.com/"><i class="fab fa-js-square"></i></a>
+                            </div>
+                        </section>
+
+                        <section id="why" class="why">
+                            <div class="left-why">
+
+                                <i class="fas fa-laptop-code"></i>
+                                <i class="far fa-lightbulb"></i>
+                            </div>
+                            <div class="right-why">
+                                <br><br><br>
+                                <h1>จุดเด่นของ Bootstrap</h1>
+                                <br><br>
+                                <h2>ความเรียบง่าย</h2>
+                                <br><br>
+                                <ul>
+                                    <li>มี UI เริ่มต้นแบบที่สวยงามและใช้งานง่าย</li><br>
+                                    <li>มีการปรับปรุงและพัฒนาอย่างต่อเนื่อง ปัจจุบันเป็นเวอร์ชั่น 5.1.0</li><br>
+                                    <li>มีการปรับปรุงและพัฒนาอย่างต่อเนื่อง ปัจจุบันเป็นเวอร์ชั่น 4.6.0</li><br>
+                                    <li>โค๊ดหรือชุดคำสั่งต่าง ๆ ค่อนข้างสะอาดมีโฟลเด้อต้นแบบแค่ 3 ส่วนคือ js, css, fonts
+                                    </li><br>
+                                    <li>ประหยัดเวลาในการพัฒนาเว็บไซต์และนำไปพัฒนาต่อได้ง่าย</li><br>
+                                    <li>เป็น Responsive Framework พัฒนาเว็บไซต์ที่รองรับการแสดงผลได้หลากหลาย Device</li>
+                                </ul>
+                            </div>
+                        </section>
+
+                        <section class="what-browser">
+                            <div class="left-what">
+                                <br><br>
+                                <h1>ใช้ในอุปกรณ์ใดได้บ้าง</h1>
+                                <br><br>
+                                <h2>เบราเซอร์ที่รองรับ</h2>
+                                <br><br>
+                                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BootStrap
+                                    สามารถใช้งานได้ทั้งในส่วนของเบราเซอร์และแพลตฟอร์มหลักทั้งคอมพิวเตอร์และมือถือ
+                                    ถ้าเป็นในส่วนของ Windows
+                                    นั้น BootStrap สนับสนุน Internet Explorer 10-11 และ Microsoft Edge แต่ Internet
+                                    Explorer เวอร์ชั่น 9
+                                    ลงไปไม่ได้สนับสนุน ตามตารางด้านล่าง
+                                    Google chrome เเละ Safari สามารถใช้งานได้ตามปกติ
+                                </p>
+                            </div>
+                            <div class="right-what">
+                                <img src="img/browser.png" alt="">
+                            </div>
+                        </section>
+
+
+                        <section id="using" class="using-bootstrap">
+                            <div class="install-left">
+                                <label style="margin-left: 1em" for="importcss">ติดตั้งเเบบปกติที่ Command Line</label>
+                                <div class="importcss">
+                                    <div class="npm">npm install bootstrap</div>
+                                    <div class="gem">gem install bootstrap -v 5.1.3</div>
+                                </div>
+
+                                <br>
+                                <label style="margin-left: 1em" for="importcss">ติดตั้งโดยใช้ jsDelivr (CDN)</label>
+                                <br><br><br>
+                                <div class="importcss">
+                                    <label for="cssonly"></label>
+                                    <div class="csss">&lt;link rel="stylesheet"
+                                        linkhref="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/CSS/bootstrap.min.CSS"
+                                        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+                                        crossorigin="anonymous"&gt;</div>
+                                    <div class="gemmm">&lt;script
+                                        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                                        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                                        crossorigin="anonymous"&gt;&lt;/script&gt;</div>
+                                </div>
+                            </div>
+                            <div class="install-right">
+                                <br><br><br>
+                                <br>
+                                <h1>เริ่มต้นใช้งาน Bootstrap</h1>
+                                <br><br>
+                                <h2>ติดตั้ง Bootstrap</h2>
+                                <br><br>
+                                <div class="install-wrap">
+                                    <p>สามารถทําได้ 2 วิธี
+            <li>ใช้วิธีการดาวน์โหลดไฟล์ BootStrap ทั้ง CSS และ JS มาเก็บไว้ที่เครื่องของเรา</li>
+            <li>ใช้วิธีการเรียกผ่าน BootStrap CDN ของ MaxCDN</li><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เรียกผ่านแท็ก HTML คือ ไฟล์ CSS จะเรียกผ่านแท็ก Link บนส่วนแท็ก Head ก่อน
+            Stylesheets ตัวอื่นๆ และไฟล์ JS จะเรียกผ่านแท็ก Script ตรงส่วนล่างสุดของหน้าก่อนปิดแท็ก Body
+            โดยการเรียกใช้งานจะเรียกจาก jQuery, Popper.js
+            </p>
+            </div>
+
+
+            </div>
+            </section>
+
+            <section id="used" class="used-bootstrap">
+                <div class="used-left">
+                    <br><br><br><br><br><br>
+                    <h1>Bootstrap ใช้งานอย่างไร</h1>
+                    <br><br>
+                    <h2>หลักการเบื้องต้น</h2>
+                    <br><br>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BootStrap นั้นจะใช้โครงสร้างในลักษณะ Grid System
+                        ในการจัดวางเลย์เอาท์ของเว็บไซต์ โดยจะแบ่งช่องพื้นที่ในคอนเทนเนอร์ออกเป็น 12 ช่อง เท่าๆ กัน
+                        ในกรณีที่เราต้องการ 3 คอลัมน์ เราก็อาจจะแบ่งพื้นที่ให้เป็น 4 ช่อง จำนวน 3 ชุด ก็จะได้ 12 ช่อง
+                        หรือ
+                        หากเราต้องการแบ่งพื้นที่เป็น 2 คอลัมน์โดยมีขนาดเท่าๆ กัน ก็อาจจะแบ่งพื้นที่ให้เป็น 6 ช่อง จำนวน
+                        2 ชุด
+                        ก็จะได้ 12 ช่อง เป็นต้น สามารถดูได้ตามตารางด้านข้าง</p>
+                </div>
+                <div class="used-right">
+                    <br><br><br><br><br>
+                    <h1>ตาราง Grid system</h1>
+                    <br>
+                    <img src="img/gridysystem.webp" alt="grid-img">
+                </div>
+            </section>
+
+            <section id="grid" class="ex-grid">
+                <div class="grid-box">
+
+                    <br><br><br><br><br>
+                    <h1>คลาสของ Gird</h1>
+                    <br><br><br>
+                    <p>เราจะใช้ class ในการกําหนดการจัดเรียง elements
+                        ซึ่งขึ้นอยู่กับขนาดความกว้างหน้าจอของเครื่องอุปกรณ์ต่างๆ
+                        (จุด breakpoint ของ col)</p>
+                    <br>
+                    <div id="one" class="box-container">
+                        <img src="img/gridclass.png" alt="cotainer-grid">
+                    </div>
+
+                    <br><br><br><br><br>
+                    <h1>เริ่มด้วยการสร้าง div class="container"</h1>
+                    <br><br><br>
+                    <p>ใน bootstrap จะใช้ระบบ GRID ในการวาง layout ต่างๆ
+                        เริ่มจากใช้ div ที่มี class ชื่อว่า container</p>
+                    <br>
+                    <div id="two" class="box-container">
+                        <img src="img/containerexx.png" alt="cotainer-grid">
+                    </div>
+
+                    <br><br><br><br><br>
+                    <h1>ผลลัพธ์ที่ได้</h1>
+                    <br><br><br>
+                    <p>
+                        เราจะได้ container ที่แสดงอยู่กึ่งกลางหน้าจอมาครับ ซึ่ง container นี้จะมีความกว้างอยู่ที่ 940px
+                        เมื่อได้
+                        container มาแล้ว ทีนี้เราก็มาเริ่มสร้างกล่องเนื้อหาต่างๆ หากเราใช้ class ที่มีชื่อว่า
+                        <b>"container-fluid"</b> จะหมายความว่าเราให้ <b>container ยืดขยายเต็มหน้าจอ !!!</b>
+                    </p>
+                    <div id="one" class="box-container">
+                        <img src="img/containerex.png" alt="cotainer-grid">
+                    </div>
+
+                    <br><br><br><br><br>
+                    <h1>ตัวอย่างการใช้งาน Grid system</h1>
+                    <br><br><br>
+                    <p>
+                        จากโค้ดด้านล่างเราใส่ html elements ที่มี class ชื่อ “col-sm-4″ รวมทั้งหมด 3 elements ด้วยกัน
+                        เมื่อพรีวิวดู เราจะพบว่า container ของเราถูกแบ่งออกเป็นคอลัมน์ต่างๆ
+                        ที่มีความกว้างเท่ากันทั้งหมดจำนวน 3
+                        คอลัมน์ ด้วยกัน
+                    </p>
+                    <div id="two" class="box-container">
+                        <img src="img/gridex.png" alt="cotainer-grid">
+                    </div>
+
+                    <br><br><br><br><br>
+                    <h1>ผลลัพธ์ที่ได้</h1>
+                    <br><br><br>
+                    <p>
+                        เราจะได้ div ทั้งหมด 3 elements ซึ่งได้ทําการเเบ่งคอลัมน์เป็นที่เรียบร้อย โดยมีการเเบ่งเป็น
+                        รูปเเบบ 4 +
+                        4 + 4 = 12
+                    </p>
+                    <div id="one" class="box-container">
+                        <img src="img/gridresult.png" alt="cotainer-grid">
+                    </div>
+
+                    <br><br><br><br><br>
+                    <h1>การเเบ่งคอลัมน์ที่ไม่เท่ากัน</h1>
+                    <br><br><br>
+                    <p>
+                        จากโค้ดด้านล่างเราใส่ html elements ที่มี class ชื่อ “col-sm-4″ เเละ “col-sm-8″ รวมทั้งหมด 2
+                        elements
+                        ด้วยกัน เมื่อพรีวิวดู เราจะพบว่า container ของเราถูกแบ่งออกเป็นคอลัมน์ต่างๆ
+                        ที่มีความกว้างไม่เท่ากัน
+                    </p>
+                    <div id="two" class="box-container">
+                        <img src="img/unequal.png" alt="cotainer-grid">
+                    </div>
+
+                    <br><br><br><br><br>
+                    <h1>ผลลัพธ์ที่ได้</h1>
+                    <br><br><br>
+                    <p>
+                        เราจะได้ div ทั้งหมด 2 elements ซึ่งได้ทําการเเบ่งคอลัมน์เป็นที่เรียบร้อย โดยมีการเเบ่งเป็น
+                        รูปเเบบ 4 +
+                        8 = 12
+                    </p>
+                    <div id="one" class="box-container">
+                        <img src="img/unqqualresult.png" alt="cotainer-grid">
+                    </div>
+
+
+                    <br><br><br><br><br>
+                    <h1>Responsive Design</h1>
+                    <br><br><br>
+                    <p>
+                        ถ้าใครอยากจะทำ Responsive Web แล้วล่ะก็ Bootstrap ได้เตรียม features รองรับไว้แล้ว ให้เรา enable
+                        responsive features ด้วยการเพิ่มโค้ดด้านล่างนี้ไว้ที่ Tag head
+                    </p>
+                    <div id="two" class="box-container">
+                        <img src="img/responsive.png" alt="cotainer-grid">
+                    </div>
+
+                    <br><br><br><br><br>
+                    <h1>Style sheet</h1>
+                    <br><br><br>
+                    <p>
+                        Style sheet จะเข้ามาช่วยเราจัดการในเรื่องของ responsive แบบอัตโนมัติ ไม่ว่าจะเป็นขนาดของ margin
+                        และ
+                        padding รวมไปถึงการเรียงกันของ grid ที่ viewport ขนาดต่างๆ หรือถ้าเราอยากให้ html elements
+                        ซ่อน/แสดง บน
+                        devices ไหน เราก็สามารถทำได้ง่ายๆ ด้วยการเพิ่ม/ลด class ที่ Bootstrap ตามตารางด้านล่าง
+                    </p>
+                    <div id="one" class="box-container">
+                        <img src="img/responsiveex.png" alt="cotainer-grid">
+                    </div>
+
+                    <br><br><br><br><br>
+                    <h1>Component สําเร็จรูป</h1>
+                    <br><br><br>
+                    <p>
+                        Bootstrap มีตัวช่วยในเรื่อง components หรือ สิ่งต่างๆ ในเว็บที่เราใช้บ่อยๆ เช่น ปุ่ม สิ่งต่างๆ
+                        ในแบบฟอร์ม ซึ่งเราสามารถดึงเอา stylesheet ที่ถูกตกแต่งไว้อย่างสวยงามของ Bootstrap
+                        มาใช้ได้ทันทีด้วยการประกาศ class ที่ตรงกันลงไป ตัวอย่างเช่น
+                    </p>
+                    <div id="two" class="box-container">
+                        <img src="img/buttonex.png" alt="cotainer-grid">
+                        <!-- <button type="button" class="btn btn-primary">Primary</button> -->
+                    </div>
+
+                    <br><br><br><br><br>
+                    <h1>Bootstrap button</h1>
+                    <br><br><br>
+                    <p>
+                        class ของ button ต่างๆเช่น btn btn-primary, btn-secondary, btn-success, btn-danger, btn-warning,
+                        btn-info, btn-light, btn-dark, btn-light
+                    <div class="box-container-btn">
+                        <button type="button" class="btn btn-primary">Primary</button>
+                        <button type="button" class="btn btn-secondary">Secondary</button>
+                        <button type="button" class="btn btn-success">Success</button>
+                        <button type="button" class="btn btn-danger">Danger</button>
+                        <button type="button" class="btn btn-warning">Warning</button>
+                        <button type="button" class="btn btn-info">Info</button>
+                        <button type="button" class="btn btn-light">Light</button>
+                        <button type="button" class="btn btn-dark">Dark</button>
+                        <button type="button" class="btn btn-link">Link</button>
+                    </div>
+
+                    <br><br><br><br><br>
+                    <h1>Bootstrap card</h1>
+                    <br><br><br>
+                    <p>
+                        Card standard ของ Google
+                    </p>
+                    <div class="box-container-card">
+                        <img src="img/cardcode.png" alt="">
+                        <div class="card" style="width: 18rem;">
+                            <img src="" class="card-img-top" alt="img here">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of
+                                    the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br><br><br><br><br>
+                    <h1>Bootstrap dropdown</h1>
+                    <br><br><br>
+                    <p>
+                        เราสามารถใช้ Boostrap ในการสร้าง dropdown menu หรือ dropdown list
+                    </p>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown button
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <br>
+                    <div id="one" class="box-container">
+                        <img src="img/bootstrapdropdown.png" alt="cotainer-grid">
+                    </div>
+
+                    <br><br><br><br><br>
+                    <h1 style="text-align: center;">Boostrap carousel</h1>
+                    <br><br><br>
+                    <p>
+                        เราสามารถใช้ Boostrap ในการสร้าง Image slider / content silder
+                    </p>
+                    <div id="one" class="box-container-carousel">
+                        <img src="img/carouselcode.png" alt="cotainer-grid">
+                    </div>
+                    <br><br>
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div><br>
+                        <h1>ตัวอย่าง Carousel</h1><br><br>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/q11.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/wirelesss.jpg" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/revieww.jpg" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="website-ex">
+                <div class="example-left">
+                    <br><br><br>
+                    <h1>hydearchitects.com</h1>
+                    <br><br><br>
+                    <button type="button" class="btn btn-primary"><a
+                            href="https://www.hydearchitects.com/">ไปยังเว็บไซต์</a></button>
+                    <br></br><br>
+                    <img src="img/hyde.png" alt="">
+                </div>
+                <div class="example-right">
+                    <br><br><br>
+                    <div class="hydewrap">
+                        <img src="img/hydegrid.png" alt="">
+                        <br><br>
+                        <img src="img/hydegrid2.png" alt="">
+                        <br><br><br>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;เราจะสามารถสังเกตเห็นได้โดยง่ายเลยว่ามีการจัด Layout
+                            ของเว็บไซต์ด้วย <b>Bootstrap</b> Grid system โดยมีการเเบ่งเป็นคอลัมน์
+                            เเละ เเถว เพื่อให้ง่ายต่อการจัด Layout
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+            <section id="website-ex">
+                <div class="example-left">
+                    <br><br><br>
+                    <h1>madetogether.com</h1>
+                    <br><br><br>
+                    <button type="button" class="btn btn-primary"><a
+                            href="https://www.madetogether.com.au/">ไปยังเว็บไซต์</a></button>
+                    <br></br><br>
+                    <img src="img/madetogethermain.png" alt="">
+                </div>
+                <div class="example-right">
+                    <br><br><br>
+                    <div class="hydewrap">
+                        <img src="img/navbarboot.png" alt="">
+                        <br><br>
+                        <img src="img/navandgrid.png" alt="">
+                        <br><br><br>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;มีการจัด Layout ด้วย Grid system เเละ มีการใช้ Component
+                            สําเร็จรูปของ Bootstrap ซึ่งก็คือ Bootstrap navbar
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+            <section id="website-ex" class="last">
+                <div class="example-left">
+                    <br><br><br>
+                    <h1>thisisneat.com</h1>
+                    <br><br><br>
+                    <button type="button" class="btn btn-primary"><a
+                            href="https://www.madetogether.com.au/">ไปยังเว็บไซต์</a></button>
+                    <br></br><br>
+                    <img src="img/thisisneat.png" alt="">
+                </div>
+                <div class="example-right">
+                    <br><br><br>
+                    <div class="hydewrap">
+                        <img src="img/neatdropdown.png" alt="">
+                        <br><br>
+                        <img src="img/neatcard.png" alt="">
+                        <br><br><br>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;มีการจัด Layout ด้วย Grid system เเละ มีการใช้ Component
+                            สําเร็จรูปของ Bootstrap ซึ่งก็คือ Bootstrap card เเละ Dropdown menu list
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+            <section id="footer">
+                <div class="wrapper-lastt">
+                    <div class="wrapnamebox">
+                        <div class="namebox">
+                            <P><i class="fas fa-copyright"></i>&nbsp;&nbsp;VISALCOOLCOOL</P>
+                            <div class="typewriter">
+                                <h1>I'm Visal Suwanarat</h1>
+                            </div>
+                            <br>
+                            <div class="typewriter">
+                                <h2>63070158</h2>
+                            </div>
+                            <br><br>
+                            <p>FONT-END DEVELOPER | UX/UI DESIGNER</p>
+                        </div>
+                        <div class="mycontact">
+                            <a href="https://www.facebook.com/first.fiesta99/"><i
+                                    class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.instagram.com/xblyxpn/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://github.com/visalcoolcool"><i class="fab fa-github"></i></a>
+                            <a href="https://codepen.io/visal-suwanarat"><i class="fab fa-codepen"></i></a>
+                            <a href=""><i class="fab fa-linkedin"></i></a>
+                            <a href="https://stackoverflow.com/users/17319928/visalcoolcool?tab=profile"><i
+                                    class="fab fa-stack-overflow"></i></a>
+                        </div>
+                        <br><br>
+                        <p class="lastref">เอกสารอ้างอิง / ที่มา</p>
+                        <div class="ref">
+                            <a href="https://getbootstrap.com/">Bootstrap.com</a>
+                            <a
+                                href="https://www.borntodev.com/c/webdeveloper/bootstrap-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3-%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%A2%E0%B8%B1%E0%B8%87%E0%B9%84%E0%B8%87-5fead4a368fff">borntodev.com</a>
+                            <a
+                                href="https://www.codebee.co.th/labs/bootstrap-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3/">codebee.co.th</a>
+                            <a href="https://www.webdodee.com/what-is-bootstrap/">webdoodee.com</a>
+                            <a
+                                href="http://www.siamhtml.com/bootstrap-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3-%E0%B8%AA%E0%B8%AD%E0%B8%99%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5%E0%B9%83%E0%B8%8A%E0%B9%89/">siamhtml.com</a>
+                            <a
+                                href="https://www.programmerthailand.com/tutorial/post/view/96/bootstrap-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3">programmerthailand.com</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+</body>
+<script src="js/scroll-out.js"></script>
+<script type="text/javascript">
+    ScrollOut({
+        targets: 'h1, h2, p, i, ul, button, img,  div, section, a'
+    })
+</script>
+
+<script>
+    setTimeout(function () {
+        $('.loader_bg').fadeToggle()
+    }, 5000);
+</script>
+
+
+
+</html>
